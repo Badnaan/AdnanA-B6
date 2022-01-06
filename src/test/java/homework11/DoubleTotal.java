@@ -12,7 +12,7 @@ public class DoubleTotal {
 		int result = 0;
 		if (valueOne == valueTwo)								// condition for both numbers to be the same
 		{
-			result = (valueOne * valueOne) + (valueTwo*valueTwo);// it doubles both numbers individually before adding them
+			result = (valueOne + valueTwo) * 2;		// it doubles the sum of two numbers
 		}
 		else													// if the numbers are not the same
 		{
