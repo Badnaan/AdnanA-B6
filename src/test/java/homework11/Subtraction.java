@@ -12,7 +12,7 @@ public class Subtraction {
 		int result = 0;
 		result = (number - 21);		// doing basic math, return the difference between variable number and 21
 		if (number > 21)			//return double the difference if n is over 21.
-			result = result * result;	//difference doubled
+			result = result * 2;	//difference doubled
 		
 		return result;
 	}
